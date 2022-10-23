@@ -77,6 +77,23 @@ header {
 
     width: 80%;
     margin: 0 auto;
+
+    @media screen and (max-width: 768px){
+        width: 90%;
+        .topo {
+            flex-direction: column;
+        }
+
+        .charmander {
+            width: 40%;
+            height: auto;    
+        }
+
+        .pidgeotto {
+            width: 40%;
+            height: auto;
+        }
+    }
 `
 
 export default Principal

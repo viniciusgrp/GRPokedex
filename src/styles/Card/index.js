@@ -6,10 +6,11 @@ const CardDiv = styled.div`
     margin: 0 auto;
     gap: 10px;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
   }
 
   li {
-    width: 24%;
     border: 1px solid red;
     border-radius: 5px;
     padding: 10px;
@@ -20,6 +21,7 @@ const CardDiv = styled.div`
     justify-content: space-between;
     height: 100px;
     background-color: blue;
+    word-break: break-all;
 
     button {
         cursor: pointer;
@@ -34,6 +36,40 @@ const CardDiv = styled.div`
 
   h2 {
     color: white;
+  }
+
+  @media screen and (max-width: 419px){
+    ul {
+            width: 100%;
+
+            li {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+  }
+
+  @media screen and (max-width: 767px){
+    ul {
+            width: 100%;
+
+            li {
+                width: 40%;
+                margin: 0 auto;
+            }
+        }
+  }
+
+  @media screen and (max-width: 1149px){
+    li {
+      width: 30%;
+    }
+  }
+
+  @media screen and (min-width: 1150px) {
+  li {
+    width: 22%;
+  }    
   }
 `;
 
