@@ -7,3 +7,43 @@ body {
   flex-wrap: wrap;
   width: 100%;
 }
+
+.grass {
+  background-color: green;
+}
+
+.fire {
+  background-color: orange;
+}
+
+.water {
+  background-color: blue;
+}
+
+.normal {
+  background-color: rgb(169, 196, 21);
+}
+
+.poison {
+  background-color: purple;
+}
+
+.bug {
+  background-color: rgb(151, 92, 14);
+}
+
+.fairy {
+  background-color: rgb(247, 0, 255);
+}
+
+.electric {
+  background-color: rgb(0, 122, 82);
+}
+
+.ground {
+  background-color: rgb(180, 148, 5);
+}
+
+.fighting {
+  background-color: red;
+}
